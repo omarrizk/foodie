@@ -16,8 +16,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class AppController {
-    private static final String GEOCOD_API_KEY = "66aa333365a4a0a034603fa35a6a163a33a05aa";
-    private static final String YELP_API_KEY = "qR98ybypU55qXV8cqt2jSgpEvDRx5Tncl9Flpttfo4eR_GKDzPM2hPUAe5H2DfzwWHTAzstzO799IGpufXYoZz1uH1z-fS5TIoiz3lH5H4RDR1Xt93D5aHGWbJVqY3Yx";
+    private static final String GEOCOD_API_KEY = "SECRET";
+    private static final String YELP_API_KEY = "SECRET";
 
     private static final String GEOCOD_URL = "https://api.geocod.io/v1.7/geocode?q=%s&api_key=" + GEOCOD_API_KEY;
     private static final String YELP_URL = "https://api.yelp.com/v3/businesses/search?term=food&latitude=%s&longitude=%s";
